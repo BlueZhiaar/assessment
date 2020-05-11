@@ -12,7 +12,7 @@ function removeAllChildren(element) {
   while (element.firstChild) { // 子どもの要素があるかぎり除去
     element.removeChild(element.firstChild);
   }
-}
+}　
 
 assessmentButton.onclick = () => {
   const userName = userNameInput.value;
