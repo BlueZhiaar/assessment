@@ -1,0 +1,24 @@
+body {
+    background-color: #123450;
+    color: #fdffff;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #654321;
+    border-style: none;
+    color: #fdffff;
+    box-shadow: 5px  5px 3px 3px gray;
+}
+
+input {
+    height: 20px;
+}
+
+h1 {
+    font-family: HG行書体;
+}
+
