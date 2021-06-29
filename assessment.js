@@ -28,10 +28,10 @@ function removeAllChildren(element){
 playButton.onclick =()=> {
     playButton.style.fontFamily = "HG行書体";
     const middle = document.createElement('h1');
+    document.getElementById("play-area").style.color = "#800000";
     middle.innerText = '押したんだな';
     playDivided.appendChild(middle);
 }
-
 assessmentButton.onclick =()=> {
 
     const userName = userNameInput.value;
