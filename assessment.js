@@ -27,10 +27,9 @@ function removeAllChildren(element){
 
 playButton.onclick =()=> {
     playButton.style.fontFamily = "HG行書体";
-    console.log('押したな');
-    const header = document.createElement('h1');
-    header.innerText = '押したんだな';
-    resultDivided.appendChild(header);
+    const middle = document.createElement('h1');
+    middle.innerText = '押したんだな';
+    playDivided.appendChild(middle);
 }
 
 assessmentButton.onclick =()=> {
